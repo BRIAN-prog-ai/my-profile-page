@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="greeting">Welcome to My Profile!</h1>
+        <img src="profile.jpg" alt="" class="profile-img">
+    </header>
+
+    <main>
+        <section id="bio">
+            <h2>About Me</h2>
+            <p>Hi! I'm a student studying IT. I love coding, designing, and learning new technologies.</p>
+            <button id="read-more">Read More</button>
+            <p id="more-bio" class="hidden">I specialize in web development and have worked on multiple projects using HTML, CSS, and JavaScript. My goal is to become a full-stack developer!</p>
+        </section>
+
+        <section class="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2>My Projects</h2>
+            <ol>
+                <li>Personal Portfolio Website</li>
+                <li>Task Manager App</li>
+                <li>Weather API Dashboard</li>
+            </ol>
+        </section>
+
+        <section id="contact">
+            <h2>Subscribe to My Newsletter</h2>
+            <form id="newsletter-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+                <p id="error-msg" class="error"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Profile. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
